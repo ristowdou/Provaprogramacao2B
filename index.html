@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=fasthand&family=playfair+display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/mpm/swiper@10/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Compra e venda</title>
+
+
+</head>
+<body>
+  <header class="cabeçalho">
+      <div class="cantaner">
+          <input type="checkbox" type="menu" class="container__botao">
+          <label for="menu">
+              <span class="cabeçalho__menu-quadriculas container__imagem"></span>
+          </label>
+      <ul class="lista-menu">
+          <li type="circle" class="lista-menu__titulo">Categorias</li>
+          <li type="circle" class="lista-menu-item"><a href="#" class="lista-menu__link-1">Maquinários</a></li>
+          <li type="circle" class="lista-menu-item"><a href="#" class="lista-menu__link-2">apaelhos eletrônicos</a></li>
+          <li type="circle" class="lista-menu-item"><a href="#" class="lista-menu__link-3">Livros</a></li>
+      </ul>
+      <samp class="cabeçalho__menu-quadriculas container__imagem"></samp>
+      <imagem src="Design sem nome (2).png" alt="logo do site" class="container__imagem"></imagem>
+
+
+
+
+      </div>
+      <div class="container">
+      <a href="#"><img src="envelope.png" alt="mensagem" class="container__imagem"  width="25px"></a>
+      <a href="#"></a><img src="carrinho-de-compras.png" alt="minhas compras" class="container__imagem" width="25px"></imagem></a>
+      <a href="#"></a><img src="do-utilizador.png" alt="meu perfil" class="container__imagem" width="25px"></imagem></a>
+      </div>
+  </header>
+  <section class="banner">
+   <h2 class="banner__titulo">Compra e venda de empresas, ativos, inserviviveis, maquinarios dentre outros.</h2>
+   <input type="search" class="banner__pesquisa" placeholder="Encontre aqui o que você quer!">
+  </section>
+  <section class="carrossel">
+   <h2 class="carrossel__titulo">Produtos</h2>
+   <div class="Swiper">
+   <div class="swiper-pagination"></div>
+   <div class="swiper-wrapper">
+       <div class="swiper-slide"><img src="Empilhadeira 2015 - 105.000.png" alt="Livro-1"></div>
+       <div class="swiper-slide"><img src="focker 272 - 2022 (1).png" alt="Livro-2"></div>
+       <div class="swiper-slide"><img src="GUINDASTE MAIOR (1).png" alt="Livro-3"></div>
+       <div class="swiper-slide"><img src="GUINDASTE MENOR.png" alt="Livro-4"></div>
+       <div class="swiper-slide"><img src="Colheitadeira de cana.png" alt="Livro-5"></div>
+   </div>
+   <div class="swiper-pagination"></div>
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-button-next"></div>
+   </div>
+   </section>
+   <section class="topicoss">
+<div class="card">
+   <div class="card_descrição">
+       <div class="descrição">
+           <h3 class="descrição__titulo">Para se eternizar basta saciar sua vontade de compra.</h3>
+           <h2 class="descrição__titulo-livro">- qualquer capitalista</h2>
+           <p class="descrição__texto">Contatenos pelo whats e tenha muita mais informações e descontos</p>
+       </div>
+       <img src="" class="descrição__imagem" alt="cartão">
+   </div>
+   <div class="card__botões">
+       <ul class="botões">
+           <ul class="botões__itens"><img src="Cópia de AtivosDesuso e Inservíveis (1).png" alt=""></ul>
+           <ul class="botões__itens"><img src="" alt=""></ul>
+       </ul>
+       <a href="#" class="botões__ancora">Saiba mais</a>
+   </div>
+</div>
+  </section>
+  <section class="topicos">
+       <h2 class="topicos__listas">Acesse</h2>
+       <ul class="topicos__listas">
+           <ul class="topicos__itens">
+               <a href="#" class="topicos__link">  </a>
+           </ul>
+           <ul class="topicos__itens">
+               <a href="#" class="topicos__link">  </a>
+           </ul>
+           <ul class="topicos__itens">
+               <a href="#" class="topicos__link">  </a>
+           </ul>
+           <ul class="topicos__itens">
+               <a href="#" class="topicos__link">  </a>
+           </ul>
+           <ul class="topicos__itens">
+               <a href="#" class="topicos__link">  </a>
+           </ul>
+           <ul class="topicos__itens">
+               <a href="#" class="topicos__link">  </a>
+           </ul>
+           <ul class="topicos__itens">
+               <a href="#" class="topicos__link">  </a>
+           </ul>
+           <ul class="topicos__itens">
+               <a href="#" class="topicos__link">  </a>
+           </ul>
+       </ul>
+  </section>
+    <section class="contato">
+        <h2 class="contato__titulo">Mais novidades a caminho</h2>
+        <p class="contato__texto">Compre, compre, compre, quando te perguntarem sobre o meio ambiente, diga, "isso é invenção da midia"</p>
+        <input type="email" placeholder="Cadastre seu email" class="contato__email">
+    </section>
+    <script src="https;//cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+       const swiper = new swiper('.swiper',{
+           spaceBetween: 10,
+           slidesperview: 3,
+           pagination:{
+               el:'.swiper-pagination',
+               type:'bullets',
+       },
+       });
+  </script>
+
+
+</body>
+</html>
